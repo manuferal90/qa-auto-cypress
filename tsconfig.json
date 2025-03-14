@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "ES2021",
+        "lib": ["ES2021", "DOM"],
+        "types": ["cypress", "node"],
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["**/*.ts"]
+}
